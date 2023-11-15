@@ -2,6 +2,7 @@ html {
     background-color: rgb(54, 163, 229);
     color: rgb(242, 242, 242);
 }
+/*pour agrendir l'image quand la sourie est u desus*/
 div img {
 
     -webkit-transition-property: all; 
@@ -11,6 +12,7 @@ div img {
 img:hover {
     transform: scale(1.2);
 }
+/*fin de modif*/
 header {
     text-align: right;
     font-size: 22px;
@@ -21,6 +23,14 @@ header {
 }
 a {
     margin-right: 30px;
+}
+main {
+        text-align: right;
+    font-size: 22px;
+    margin: 1em;
+    padding: 30px;
+    background-color: rgb(242, 242, 242); 
+    color: rgb(54, 163, 229);
 }
 footer {
     text-align: right;
